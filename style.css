@@ -1,0 +1,52 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.home-container{
+   
+   position: relative;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.subtitles{
+    text-align: center;
+    font-size: 2rem;
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 0px 15px 0px black;
+    border-radius: 10px;
+}
+
+#next{
+    font-size: 4rem;
+    color: red;
+    position: absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+    top: 220px;
+    left: 73%;
+}
+#prev{
+    font-size: 4rem;
+    color: red;
+    position: absolute;
+    top:0;
+    left: 0;
+    cursor: pointer;
+    top: 220px;
+    left: 25%;
+}
+
